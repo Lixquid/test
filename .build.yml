@@ -1,0 +1,9 @@
+# SourceHut Build Manifest
+image: alpine/latest
+sources:
+    - https://github.com/lixquid/test
+secrets:
+    - 6d1071f8-4f31-4058-b952-bb37dbaa27ee
+tasks:
+    - build: |
+          cat ~/.TEST_SECRET
