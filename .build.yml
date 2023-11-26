@@ -1,4 +1,4 @@
-# SourceHut Build Manifest
+# SourceHut Build Manifest A
 image: alpine/latest
 sources:
     - https://github.com/lixquid/test
